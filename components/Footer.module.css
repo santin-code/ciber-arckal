@@ -1,0 +1,30 @@
+.footer {
+  padding: 28px 32px;
+  border-top: 1px solid var(--border-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.copy {
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.hiddenLink {
+  position: absolute;
+  right: 24px;
+  bottom: 50%;
+  transform: translateY(50%);
+  font-size: 22px;
+  color: rgba(255,255,255,0.08);
+  line-height: 1;
+  transition: color 0.2s;
+  user-select: none;
+}
+
+.hiddenLink:hover {
+  color: rgba(255,255,255,0.3);
+}

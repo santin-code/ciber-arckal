@@ -1,0 +1,66 @@
+.section {
+  padding: 100px 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid var(--border-soft);
+}
+
+.glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 55% 50% at 50% 50%, rgba(37, 211, 102, 0.07) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #25D366;
+  margin-bottom: 12px;
+}
+
+.h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(40px, 7vw, 72px);
+  letter-spacing: 0.04em;
+  line-height: 1.05;
+  margin-bottom: 16px;
+}
+
+.sub {
+  font-size: 16px;
+  color: var(--muted);
+  max-width: 420px;
+  margin: 0 auto 36px;
+  line-height: 1.7;
+}
+
+.btnWa {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: #25D366;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 18px 40px;
+  border-radius: 999px;
+  transition: all 0.3s;
+  box-shadow: 0 8px 40px rgba(37, 211, 102, 0.28);
+  letter-spacing: 0.02em;
+}
+
+.btnWa:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 16px 56px rgba(37, 211, 102, 0.4);
+}
+
+.waIcon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}

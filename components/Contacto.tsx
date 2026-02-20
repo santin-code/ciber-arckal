@@ -7,8 +7,7 @@ export default function Contacto() {
       <span className={styles.label}>Contacto</span>
       <h2 className={styles.h2}>¿Tienes dudas?<br />Escríbenos ahora</h2>
       <p className={styles.sub}>
-        Estamos listos para ayudarte con cualquier pago, recarga o trámite.
-        Respuesta rápida garantizada.
+        Estamos listos para ayudarte con cualquier pago de servicios, recarga o trámite.
       </p>
       <a
         href="https://wa.me/+447411580865"

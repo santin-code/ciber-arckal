@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p className={styles.copy}>
-        © {new Date().getFullYear()} ARKAL — Simplifying your digital life
+        © {new Date().getFullYear()} ARCKAL — Simplifying your digital life
       </p>
       {/* Hidden admin link — low visibility dot */}
       <Link href="/ciber" className={styles.hiddenLink} aria-label="admin">

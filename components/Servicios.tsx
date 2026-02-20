@@ -28,8 +28,8 @@ export default function Servicios() {
       <div className={styles.container}>
         <span className={styles.label}>Pago de servicios</span>
         <h2 className={styles.h2}>
-          Paga tus servicios<br />
-          <span className={styles.highlight}>sin filas, sin esperas</span>
+          Paga tus servicios aquí <br />
+          <span className={styles.highlight}>_</span>
         </h2>
         <div className={svc.grid}>
           {services.map((s) => (

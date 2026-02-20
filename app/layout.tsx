@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'ARKAL — Simplifying your digital life',
+  title: 'ARCKAL — Simplifying your digital life',
   description: 'Pago de servicios, recargas electrónicas, recargas de juegos y trámites digitales.',
 }
 

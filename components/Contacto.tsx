@@ -11,7 +11,7 @@ export default function Contacto() {
         Respuesta rápida garantizada.
       </p>
       <a
-        href="https://wa.me/521234567890"
+        href="https://wa.me/+447411580865"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.btnWa}

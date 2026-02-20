@@ -20,7 +20,7 @@ const tramites = [
   {
     icon: '🏥',
     title: 'Número de seguro social (NSS)',
-    desc: 'Consulta y obtén tu NSS del IMSS de forma inmediata.',
+    desc: 'Consulta y obtén tu NSS del IMSS.',
   },
   {
     icon: '🗓️',
@@ -30,7 +30,7 @@ const tramites = [
   {
     icon: '🖨️',
     title: 'Ampliación y reducción de documentos',
-    desc: 'Imprimimos a cualquier tamaño: carta, oficio, A4 y más.',
+    desc: 'carta, oficio, A4 y más.',
   },
   {
     icon: '📄',

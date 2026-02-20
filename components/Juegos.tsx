@@ -2,11 +2,11 @@ import styles from './Section.module.css'
 import g from './Juegos.module.css'
 
 const diamonds = [
-  { amount: '110 diamantes', price: '$27' },
-  { amount: '341 diamantes', price: '$67' },
-  { amount: '572 diamantes', price: '$107' },
-  { amount: '1,166 diamantes', price: '$207' },
-  { amount: '2,398 diamantes', price: '$387' },
+  { amount: '110 diamantes', price: '$30' },
+  { amount: '341 diamantes', price: '$70' },
+  { amount: '572 diamantes', price: '$110' },
+  { amount: '1,166 diamantes', price: '$210' },
+  { amount: '2,398 diamantes', price: '$390' },
 ]
 
 const memberships = [
@@ -36,8 +36,7 @@ export default function Juegos() {
           </div>
           <p className={g.gameDesc}>
             Compra Robux de forma rápida y segura. Úsalos para adquirir accesorios,
-            passes de juego, avatares y mucho más dentro de Roblox. Escríbenos el
-            monto que necesitas.
+            passes de juego, avatares y mucho más dentro de Roblox.
           </p>
         </div>
 

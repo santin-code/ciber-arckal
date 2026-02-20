@@ -22,7 +22,7 @@ export default function Recargas() {
           <span className={styles.highlight}>un solo lugar</span>
         </h2>
         <p className={rc.intro}>
-          Recarga tu línea en segundos. Sin comisiones ocultas, sin esperas.
+          Recarga tu línea en segundos.
           Disponible para todas las operadoras de México.
         </p>
         <div className={rc.grid}>
